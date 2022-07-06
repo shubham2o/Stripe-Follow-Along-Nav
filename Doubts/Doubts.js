@@ -38,3 +38,11 @@ function mouseEnter() {
 function mouseLeave() {
     document.getElementById("demo3").style.color = "violet";
 }
+
+
+// CSSStyleDeclaration setProperty() Method
+// EXAMPLE 1 ||
+function mySetProperty() {
+    var declaration = document.styleSheets[0].cssRules[0].style;
+    var setprop = declaration.setProperty("background-color", "yellow");
+}
